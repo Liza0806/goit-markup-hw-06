@@ -1018,6 +1018,9 @@ background-position: center;
     width: 453px;
 
 }
+.items-input-footer input{
+    color: var(--pure-wite);
+}
 .subsc-button{
     font-family: "Roboto", sans-serif;
     color: var(--pure-wite);
