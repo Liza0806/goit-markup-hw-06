@@ -1021,6 +1021,7 @@ background-position: center;
 .items-input-footer input{
     color: var(--pure-wite);
 }
+
 .subsc-button{
     font-family: "Roboto", sans-serif;
     color: var(--pure-wite);
@@ -1059,7 +1060,11 @@ background-position: center;
     width: 264px;
     height: 40px;
     padding-left: 16px;
-   
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-mail:hover,
+.footer-form-mail:focus {
+    border: 1px solid var(--accent);
 }
 .footer-form-mail::placeholder {
    
